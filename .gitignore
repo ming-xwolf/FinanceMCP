@@ -67,3 +67,9 @@ main.py
 实习项目总结（陈星宇）.pdf
 ~$FinanceMCP_项目介绍.pptx
 generate_ppt.py
+
+# SSE 服务运行时文件
+.sse.log
+.sse.pid
+*.log
+*.pid
