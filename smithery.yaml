@@ -39,7 +39,7 @@ startCommand:
       args: ["build/httpServer.js"],
       env: {
         NODE_ENV: "production",
-        PORT: "3000",
+        PORT: "20011",
         TUSHARE_TOKEN: config.TUSHARE_TOKEN || ""
       }
     })

@@ -128,7 +128,7 @@ function extractTokenFromHeaders(req: Request): string | undefined {
 // 移除 CoinGecko 头的解析（已改为 Binance 公共行情，无需 Key）
 
 const app = express();
-const PORT = Number(process.env.PORT || 3000);
+const PORT = Number(process.env.PORT || 20011);
 
 // 日志中间件：记录所有请求
 app.use((req: Request, res: Response, next) => {
